@@ -17,8 +17,7 @@ def averagenumbersinfile(num,count):
 
 if __name__ == "__main__":
     """
-        main function, starting point of program. User will be prompted to 
-        enter name of the file.
+        main function, starting point of program.
     """
     try:
         fname = open('C:\Users\Anuja\projects\python\mbox-short.txt')
