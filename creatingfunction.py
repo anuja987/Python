@@ -31,7 +31,7 @@ if __name__ == "__main__":
             print pay
         else:
             print ("Hours should be equal or greater than 40. Terminating program ...")
-            exit(1)
+            
             
     except:
         exc_type, exc_obj, exc_tb = sys.exc_info()
