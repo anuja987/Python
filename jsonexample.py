@@ -3,7 +3,7 @@ import sys
 
 def parsingjsondata():
     """
-        This program creats where.html file which points to the locations present in geodata.sqlite file.
+        This program parses data from json file such as 'name', 'Id', 'attribute'.
        
         Arg:  None
         Returns: None
