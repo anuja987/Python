@@ -3,7 +3,8 @@ import sys
 
 def socket1():
     """
-    This program retrieves a document using http protocol to examine the HTTP Response headers
+    This program retrieves a document using http protocol to examine the HTTP Response headers.
+    
         Arg: None
         Returns: None
         

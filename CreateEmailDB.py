@@ -8,7 +8,7 @@ def emaildatabase():
     Creating a database of emails from the mbox-short.txt file and counting the total number of emails.
     
     Args: None
-    Return: None
+    Returns: None
     """
     try:
         conn = sqlite3.connect('emaildb.sqlite')

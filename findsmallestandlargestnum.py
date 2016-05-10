@@ -1,7 +1,6 @@
 import sys
 
 def findsmallestandlargestnumber():
-
     """
        Finds smallest and largest number out of the numbers entered by user
        
