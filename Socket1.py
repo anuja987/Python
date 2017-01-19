@@ -19,7 +19,6 @@ def socket1():
             if ( len(data) < 1 ) :
                 break
             print data;
-
         mysock.close()
     
     except:
