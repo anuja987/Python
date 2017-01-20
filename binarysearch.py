@@ -10,7 +10,9 @@ def binary_search(mylist, item):
     first=0
     last=len(mylist)-1
     found=False
-
+    
+    try:
+        
     while(first<=last and not found):
         mid= (first+last)//2
         if mylist[mid] == item:
@@ -20,6 +22,12 @@ def binary_search(mylist, item):
         else:
             first= mid+1
     return found
+
+    except:
+        exc_type, exc_obj, exc_tb = sys.exc_info()
+        print ("Exception occured. Type:{0}, Object: {1}, TraceBack: {2}", exc_type, exc_obj, exc_tb)
+
+        
 
 print binary_search([3,4,5,6,7],4)
 print binary_search([5,6,7,8,9],1)
