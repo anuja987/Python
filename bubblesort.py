@@ -21,6 +21,10 @@ def bubble_sort(myList):
         exc_type, exc_obj, exc_tb = sys.exc_info()
         print ("Exception occured. Type:{0}, Object: {1}, TraceBack: {2}", exc_type, exc_obj, exc_tb)
 
-myList=[32,21,67,90,29,10,34]
-sortedlist= bubble_sort(myList)
-print(sortedlist)
+if __name__ == "__main__":   
+    """       
+    main function, starting point of program.   
+    """   
+    myList=[32,21,67,90,29,10,34]
+    sortedlist= bubble_sort(myList)
+    print(sortedlist)
