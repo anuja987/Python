@@ -39,3 +39,4 @@ if __name__ == "__main__":
     """
         main function, starting point of program.
     """
+    averagenumbersinfile()
