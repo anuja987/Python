@@ -5,6 +5,7 @@ def linear_search(mylist,item):
 
     The algorithm is as follows (given a list called 'mylist' and looking for an item called 'item'):
     """
+    try:
     found=False
     position=0
     while position < len(mylist) and not found:
@@ -12,8 +13,13 @@ def linear_search(mylist,item):
             found=True
         position=position+1
     return found
-
-if __name__=="__main__":
+    
+    except:
+        
+if __name__ == "__main__":
+    """
+        main function, starting point of program.
+    """
     mylist=[2,4,3,6,5,9]
-print linear_search(mylist,2)
-print linear_search(mylist,11)
+    print linear_search(mylist,2)
+    print linear_search(mylist,11)
