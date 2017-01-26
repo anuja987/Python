@@ -38,7 +38,10 @@ def mergeSort(nlist):
             exc_type, exc_obj, exc_tb = sys.exc_info()
             print ("Exception occured. Type:{0}, Object: {1}, TraceBack: {2}", exc_type, exc_obj, exc_tb)
 
-  
-nlist = [14,46,43,27,57,41,45,21,70]  
-mergeSort(nlist)  
-print(nlist) 
+if __name__ == "__main__":   
+    
+    """        main function, starting point of program.  
+    """
+    nlist = [14,46,43,27,57,41,45,21,70]  
+    mergeSort(nlist)  
+    print(nlist) 
