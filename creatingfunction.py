@@ -30,7 +30,7 @@ if __name__ == "__main__":
             pay= computepay(h,r)
             print pay
         else:
-            print ("Hours should be equal or greater than 40. Terminating program ...")
+            print ("Hours should be equal or greater than 40. Terminating program ..")
             
             
     except:
