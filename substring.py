@@ -16,4 +16,7 @@ def find_substring():
         print ("Exception occured. Type:{0}, Object: {1}, TraceBack: {2}", exc_type, exc_obj, exc_tb)
         
 if __name__=="__main__":
+    """
+        main function, starting point of program.
+    """
     print(find_substring())
