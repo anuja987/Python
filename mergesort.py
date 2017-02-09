@@ -12,31 +12,31 @@ def mergeSort(nlist):
         mergeSort(righthalf)  
         i=j=k=0    
         
-        try:
+    try:
             
-        while i < len(lefthalf) and j < len(righthalf):  
-            if lefthalf[i] < righthalf[j]:  
-                nlist[k]=lefthalf[i]  
-                i=i+1  
-            else:  
-                nlist[k]=righthalf[j]  
-                j=j+1  
-            k=k+1  
-
-        while i < len(lefthalf):  
+    while i < len(lefthalf) and j < len(righthalf):  
+        if lefthalf[i] < righthalf[j]:  
             nlist[k]=lefthalf[i]  
             i=i+1  
-            k=k+1  
-
-        while j < len(righthalf):  
+        else:  
             nlist[k]=righthalf[j]  
             j=j+1  
-            k=k+1  
+              k=k+1  
+
+    while i < len(lefthalf):  
+        nlist[k]=lefthalf[i]  
+        i=i+1  
+        k=k+1  
+
+    while j < len(righthalf):  
+        nlist[k]=righthalf[j]  
+        j=j+1  
+        k=k+1  
     print("Merging ",nlist)
     
-        except:
-            exc_type, exc_obj, exc_tb = sys.exc_info()
-            print ("Exception occured. Type:{0}, Object: {1}, TraceBack: {2}", exc_type, exc_obj, exc_tb)
+    except:
+        exc_type, exc_obj, exc_tb = sys.exc_info()
+        print ("Exception occured. Type:{0}, Object: {1}, TraceBack: {2}", exc_type, exc_obj, exc_tb)
 
 if __name__ == "__main__":   
     
