@@ -1,5 +1,7 @@
 def find_substring():
-    
+    '''
+    This program is written using for loop to find out if the given substring is part of the list of strings provided in the program.
+    '''
     try:
         
     small_str = "how"
