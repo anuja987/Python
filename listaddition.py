@@ -1,9 +1,9 @@
 def listaddition():
     """
-       Given 2 lists create 3rd list which will represent addition of first 2 lists. 
-       for eg. [1,2,3] + [4,7,9] = [6,0,2] 
+       Given 2 lists create 3rd list which will represent addition of first 2 lists.
+       for eg. [1,2,3] + [4,7,9] = [6,0,2]
        Extend your program to have lists of different lengths.
-       
+
         Arg:  None
         Returns: None
     """
@@ -16,7 +16,7 @@ def listaddition():
     k = min(i, j)
     d = 0
     try:
-        
+
         while k >= 0:
             temp = (a[i] + b[j]) + d
             if temp > 9:
@@ -43,7 +43,8 @@ def listaddition():
         print ("Exception occured. Type:{0}, Object: {1}, TraceBack: {2}", exc_type, exc_obj, exc_tb)
 
 if __name__ == "__main__":
-     """
-        main function, starting point of program.
-    """   
+    """
+    main function, starting point of program.
+    """
     listaddition()
+
