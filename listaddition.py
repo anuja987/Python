@@ -8,8 +8,8 @@ def listaddition():
         Returns: None
     """
 
-    a = [1,9,5,7]
-    b = [1,2,1]
+    a = [1,2,3]
+    b = [4,7,9]
     result= []
     i= len(a)-1
     j= len(b)-1
