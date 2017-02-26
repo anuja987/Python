@@ -7,8 +7,10 @@ def listaddition():
         Returns: None
     """
 
-    a = [1,2,3]
-    b = [4,7,9]
+    a = []
+    a = raw_input("Enter list a:")
+    b = []
+    b = raw_input("Enter list b:")
     result= []
     i= len(a)-1
     j= len(b)-1
