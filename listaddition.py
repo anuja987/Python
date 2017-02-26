@@ -1,7 +1,6 @@
 def listaddition():
     """
        Given 2 lists create 3rd list which will represent addition of first 2 lists.
-       for eg. [1,2,3] + [4,7,9] = [6,0,2]
        Extend your program to have lists of different lengths.
 
         Arg:  None
