@@ -1,16 +1,15 @@
 def listaddition():
     """
        Given 2 lists create 3rd list which will represent addition of first 2 lists.
+       for eg. [1,2,3] + [4,7,9] = [6,0,2]
        Extend your program to have lists of different lengths.
 
         Arg:  None
         Returns: None
     """
 
-    a = []
-    a = raw_input("Enter list a:")
-    b = []
-    b = raw_input("Enter list b:")
+    a = [1,9,5,7]
+    b = [1,2,1]
     result= []
     i= len(a)-1
     j= len(b)-1
@@ -48,4 +47,3 @@ if __name__ == "__main__":
     main function, starting point of program.
     """
     listaddition()
-
