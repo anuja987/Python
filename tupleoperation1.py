@@ -31,9 +31,9 @@ def tuples():
           print key, val
 
 
-     except:
-            exc_type, exc_obj, exc_tb = sys.exc_info()
-            print ("Exception occured. Type:{0}, Object: {1}, TraceBack: {2}", exc_type, exc_obj, exc_tb)
+    except:
+         exc_type, exc_obj, exc_tb = sys.exc_info()
+         print ("Exception occured. Type:{0}, Object: {1}, TraceBack: {2}", exc_type, exc_obj, exc_tb)
 
 if __name__ == "__main__":
     """
